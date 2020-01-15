@@ -16,3 +16,10 @@
 // APIのURL以外のリクエストに対してはindexテンプレートを返す
 // 画面遷移はフロントエンドのVueRouterが制御する
 Route::get('/{any?}', fn () => view('index'))->where('any', '.+');
+
+// 会員登録
+Route::post('/register', 'Auth\RegisterController@register')->name('register');
+// ログイン
+Route::post('/login', 'Auth\LoginController@login')->name('login');
+// ログアウト
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
