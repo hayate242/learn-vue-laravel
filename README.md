@@ -4,7 +4,11 @@ docker-compose up -d
 docker-compose exec vuesplash_web bash
 php artisan serve --host 0.0.0.0 --port 8081
 ```
-
+## RUN test code
+```
+$ docker-compose exec vuesplash_web bash
+# ./vendor/bin/phpunit --testdox
+```
 
 ## REFS
 (Vue + Vue Router + Vuex + Laravelで写真共有アプリを作ろう)[https://www.hypertextcandy.com/vue-laravel-tutorial-introduction]
