@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 
@@ -12,6 +13,23 @@ class Photo extends Model
 
     /** IDの桁数 */
     const ID_LENGTH = 12;
+
+    // /** JSONに含める属性 */
+    // protected $appends = [
+    //     'url',
+    // ];
+
+    // /** JSONに含めない属性 */
+    // protected $hidden = [
+    //     'user_id', 'filename',
+    //     self::CREATED_AT, self::UPDATED_AT,
+    // ];
+
+    // 今回は$visibleプロパティを採用
+    /** JSONに含める属性 */
+    protected $visible = [
+        'id', 'owner', 'url',
+    ];
 
     public function __construct(array $attributes = [])
     {
@@ -52,5 +70,23 @@ class Photo extends Model
         }
 
         return $id;
+    }
+
+    /**
+     * リレーションシップ - usersテーブル
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function owner()
+    {
+        return $this->belongsTo('App\User', 'user_id', 'id', 'users');
+    }
+
+    /**
+     * アクセサ - url
+     * @return string
+     */
+    public function getUrlAttribute()
+    {
+        return Storage::cloud()->url($this->attributes['filename']);
     }
 }

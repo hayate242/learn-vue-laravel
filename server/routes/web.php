@@ -11,7 +11,8 @@
 |
 */
 
-
+// 写真ダウンロード（Laravel のルート定義は上から順番にマッチしたルートに制御が渡されるので，上に書く）
+Route::get('/photos/{photo}/download', 'PhotoController@download');
 
 // APIのURL以外のリクエストに対してはindexテンプレートを返す
 // 画面遷移はフロントエンドのVueRouterが制御する
