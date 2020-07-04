@@ -11,5 +11,5 @@ $ docker-compose exec vuesplash_web bash
 ```
 
 ## REFS
-(Vue + Vue Router + Vuex + Laravelで写真共有アプリを作ろう)[https://www.hypertextcandy.com/vue-laravel-tutorial-introduction]
-(github)[https://github.com/MasahiroHarada/vuesplash-6/tree/ch-3]
+[Vue + Vue Router + Vuex + Laravelで写真共有アプリを作ろう](https://www.hypertextcandy.com/vue-laravel-tutorial-introduction) \
+[github](https://github.com/MasahiroHarada/vuesplash-6/tree/ch-3)

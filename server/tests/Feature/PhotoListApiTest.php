@@ -38,7 +38,8 @@ class PhotoListApiTest extends TestCase
             ];
         })
             ->all();
-
+        // print_r($expected_data);
+        print_r($response);
         $response->assertStatus(200)
             // レスポンスJSONのdata項目に含まれる要素が5つであること
             ->assertJsonCount(5, 'data')

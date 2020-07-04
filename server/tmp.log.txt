@@ -1,0 +1,1102 @@
+PHPUnit 8.5.2 by Sebastian Bergmann and contributors.
+
+F                                                                   1 / 1 (100%)Illuminate\Foundation\Testing\TestResponse Object
+(
+    [baseResponse] => Illuminate\Http\JsonResponse Object
+        (
+            [data:protected] => {"current_page":1,"data":[{"id":"i1xzXWM27WGE","owner":{"name":"Keeley Gerlach"}},{"id":"e7xE1S2aNIpZ","owner":{"name":"Dr. Kylie Smitham Jr."}},{"id":"dBrKFF7E4jke","owner":{"name":"Aimee DuBuque"}},{"id":"hHYis9CyQ4qV","owner":{"name":"Lea Zieme I"}},{"id":"GSmUcAgd7f4A","owner":{"name":"Dr. Rory Schimmel"}}],"first_page_url":"http:\/\/localhost\/api\/photos?page=1","from":1,"last_page":1,"last_page_url":"http:\/\/localhost\/api\/photos?page=1","next_page_url":null,"path":"http:\/\/localhost\/api\/photos","per_page":15,"prev_page_url":null,"to":5,"total":5}
+            [callback:protected] => 
+            [encodingOptions:protected] => 0
+            [headers] => Symfony\Component\HttpFoundation\ResponseHeaderBag Object
+                (
+                    [computedCacheControl:protected] => Array
+                        (
+                            [no-cache] => 1
+                            [private] => 1
+                        )
+
+                    [cookies:protected] => Array
+                        (
+                            [] => Array
+                                (
+                                    [/] => Array
+                                        (
+                                            [XSRF-TOKEN] => Symfony\Component\HttpFoundation\Cookie Object
+                                                (
+                                                    [name:protected] => XSRF-TOKEN
+                                                    [value:protected] => eyJpdiI6IlVBMUttcHVOSERPTGE4NEdGTjBvUUE9PSIsInZhbHVlIjoiU1k0WEJYOVRzRmNOZ1Z4NmVvcVpMN05BR2k5ajVGODF0ZWlZbWVcLzVDbWtxR2NpWFVFdzdMZmdkRUp4U3lMZ00iLCJtYWMiOiJiYWVjNDQxMzg1ZWZhMDAyYjMwZDYzOGMyOGYyZTUyZjhiNjEyZTFkOTRiMjJjYTc3NjYwOGM3ZTA0MDU2ZTZkIn0=
+                                                    [domain:protected] => 
+                                                    [expire:protected] => 1579676907
+                                                    [path:protected] => /
+                                                    [secure:protected] => 
+                                                    [httpOnly:protected] => 
+                                                    [raw:Symfony\Component\HttpFoundation\Cookie:private] => 
+                                                    [sameSite:Symfony\Component\HttpFoundation\Cookie:private] => 
+                                                    [secureDefault:Symfony\Component\HttpFoundation\Cookie:private] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [headerNames:protected] => Array
+                        (
+                            [cache-control] => Cache-Control
+                            [date] => Date
+                            [content-type] => Content-Type
+                            [set-cookie] => Set-Cookie
+                        )
+
+                    [headers:protected] => Array
+                        (
+                            [cache-control] => Array
+                                (
+                                    [0] => no-cache, private
+                                )
+
+                            [date] => Array
+                                (
+                                    [0] => Wed, 22 Jan 2020 05:08:27 GMT
+                                )
+
+                            [content-type] => Array
+                                (
+                                    [0] => application/json
+                                )
+
+                        )
+
+                    [cacheControl:protected] => Array
+                        (
+                        )
+
+                )
+
+            [content:protected] => {"current_page":1,"data":[{"id":"i1xzXWM27WGE","owner":{"name":"Keeley Gerlach"}},{"id":"e7xE1S2aNIpZ","owner":{"name":"Dr. Kylie Smitham Jr."}},{"id":"dBrKFF7E4jke","owner":{"name":"Aimee DuBuque"}},{"id":"hHYis9CyQ4qV","owner":{"name":"Lea Zieme I"}},{"id":"GSmUcAgd7f4A","owner":{"name":"Dr. Rory Schimmel"}}],"first_page_url":"http:\/\/localhost\/api\/photos?page=1","from":1,"last_page":1,"last_page_url":"http:\/\/localhost\/api\/photos?page=1","next_page_url":null,"path":"http:\/\/localhost\/api\/photos","per_page":15,"prev_page_url":null,"to":5,"total":5}
+            [version:protected] => 1.1
+            [statusCode:protected] => 200
+            [statusText:protected] => OK
+            [charset:protected] => 
+            [original] => Illuminate\Pagination\LengthAwarePaginator Object
+                (
+                    [total:protected] => 5
+                    [lastPage:protected] => 1
+                    [items:protected] => Illuminate\Database\Eloquent\Collection Object
+                        (
+                            [items:protected] => Array
+                                (
+                                    [0] => App\Photo Object
+                                        (
+                                            [keyType:protected] => string
+                                            [visible:protected] => Array
+                                                (
+                                                    [0] => id
+                                                    [1] => owner
+                                                    [2] => url
+                                                )
+
+                                            [connection:protected] => sqlite_testing
+                                            [table:protected] => photos
+                                            [primaryKey:protected] => id
+                                            [incrementing] => 1
+                                            [with:protected] => Array
+                                                (
+                                                )
+
+                                            [withCount:protected] => Array
+                                                (
+                                                )
+
+                                            [perPage:protected] => 15
+                                            [exists] => 1
+                                            [wasRecentlyCreated] => 
+                                            [attributes:protected] => Array
+                                                (
+                                                    [id] => i1xzXWM27WGE
+                                                    [user_id] => 2
+                                                    [filename] => Gwew6JbINnLT.jpg
+                                                    [created_at] => 2018-12-22 06:50:36
+                                                    [updated_at] => 2010-07-03 03:17:12
+                                                )
+
+                                            [original:protected] => Array
+                                                (
+                                                    [id] => i1xzXWM27WGE
+                                                    [user_id] => 2
+                                                    [filename] => Gwew6JbINnLT.jpg
+                                                    [created_at] => 2018-12-22 06:50:36
+                                                    [updated_at] => 2010-07-03 03:17:12
+                                                )
+
+                                            [changes:protected] => Array
+                                                (
+                                                )
+
+                                            [casts:protected] => Array
+                                                (
+                                                )
+
+                                            [dates:protected] => Array
+                                                (
+                                                )
+
+                                            [dateFormat:protected] => 
+                                            [appends:protected] => Array
+                                                (
+                                                )
+
+                                            [dispatchesEvents:protected] => Array
+                                                (
+                                                )
+
+                                            [observables:protected] => Array
+                                                (
+                                                )
+
+                                            [relations:protected] => Array
+                                                (
+                                                    [owner] => App\User Object
+                                                        (
+                                                            [fillable:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                    [1] => email
+                                                                    [2] => password
+                                                                )
+
+                                                            [casts:protected] => Array
+                                                                (
+                                                                    [email_verified_at] => datetime
+                                                                )
+
+                                                            [visible:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                )
+
+                                                            [connection:protected] => sqlite_testing
+                                                            [table:protected] => users
+                                                            [primaryKey:protected] => id
+                                                            [keyType:protected] => int
+                                                            [incrementing] => 1
+                                                            [with:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [withCount:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [perPage:protected] => 15
+                                                            [exists] => 1
+                                                            [wasRecentlyCreated] => 
+                                                            [attributes:protected] => Array
+                                                                (
+                                                                    [id] => 2
+                                                                    [name] => Keeley Gerlach
+                                                                    [email] => connelly.efrain@example.com
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => mlaS0A2Y7k
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [original:protected] => Array
+                                                                (
+                                                                    [id] => 2
+                                                                    [name] => Keeley Gerlach
+                                                                    [email] => connelly.efrain@example.com
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => mlaS0A2Y7k
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [changes:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dates:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dateFormat:protected] => 
+                                                            [appends:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dispatchesEvents:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [observables:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [relations:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [touches:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [timestamps] => 1
+                                                            [hidden:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [guarded:protected] => Array
+                                                                (
+                                                                    [0] => *
+                                                                )
+
+                                                            [rememberTokenName:protected] => remember_token
+                                                        )
+
+                                                )
+
+                                            [touches:protected] => Array
+                                                (
+                                                )
+
+                                            [timestamps] => 1
+                                            [hidden:protected] => Array
+                                                (
+                                                )
+
+                                            [fillable:protected] => Array
+                                                (
+                                                )
+
+                                            [guarded:protected] => Array
+                                                (
+                                                    [0] => *
+                                                )
+
+                                        )
+
+                                    [1] => App\Photo Object
+                                        (
+                                            [keyType:protected] => string
+                                            [visible:protected] => Array
+                                                (
+                                                    [0] => id
+                                                    [1] => owner
+                                                    [2] => url
+                                                )
+
+                                            [connection:protected] => sqlite_testing
+                                            [table:protected] => photos
+                                            [primaryKey:protected] => id
+                                            [incrementing] => 1
+                                            [with:protected] => Array
+                                                (
+                                                )
+
+                                            [withCount:protected] => Array
+                                                (
+                                                )
+
+                                            [perPage:protected] => 15
+                                            [exists] => 1
+                                            [wasRecentlyCreated] => 
+                                            [attributes:protected] => Array
+                                                (
+                                                    [id] => e7xE1S2aNIpZ
+                                                    [user_id] => 4
+                                                    [filename] => BDHHCPCq2AWw.jpg
+                                                    [created_at] => 2016-05-15 19:29:18
+                                                    [updated_at] => 1980-03-02 02:31:46
+                                                )
+
+                                            [original:protected] => Array
+                                                (
+                                                    [id] => e7xE1S2aNIpZ
+                                                    [user_id] => 4
+                                                    [filename] => BDHHCPCq2AWw.jpg
+                                                    [created_at] => 2016-05-15 19:29:18
+                                                    [updated_at] => 1980-03-02 02:31:46
+                                                )
+
+                                            [changes:protected] => Array
+                                                (
+                                                )
+
+                                            [casts:protected] => Array
+                                                (
+                                                )
+
+                                            [dates:protected] => Array
+                                                (
+                                                )
+
+                                            [dateFormat:protected] => 
+                                            [appends:protected] => Array
+                                                (
+                                                )
+
+                                            [dispatchesEvents:protected] => Array
+                                                (
+                                                )
+
+                                            [observables:protected] => Array
+                                                (
+                                                )
+
+                                            [relations:protected] => Array
+                                                (
+                                                    [owner] => App\User Object
+                                                        (
+                                                            [fillable:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                    [1] => email
+                                                                    [2] => password
+                                                                )
+
+                                                            [casts:protected] => Array
+                                                                (
+                                                                    [email_verified_at] => datetime
+                                                                )
+
+                                                            [visible:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                )
+
+                                                            [connection:protected] => sqlite_testing
+                                                            [table:protected] => users
+                                                            [primaryKey:protected] => id
+                                                            [keyType:protected] => int
+                                                            [incrementing] => 1
+                                                            [with:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [withCount:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [perPage:protected] => 15
+                                                            [exists] => 1
+                                                            [wasRecentlyCreated] => 
+                                                            [attributes:protected] => Array
+                                                                (
+                                                                    [id] => 4
+                                                                    [name] => Dr. Kylie Smitham Jr.
+                                                                    [email] => marcella25@example.net
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => gYuoz2LTNB
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [original:protected] => Array
+                                                                (
+                                                                    [id] => 4
+                                                                    [name] => Dr. Kylie Smitham Jr.
+                                                                    [email] => marcella25@example.net
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => gYuoz2LTNB
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [changes:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dates:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dateFormat:protected] => 
+                                                            [appends:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dispatchesEvents:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [observables:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [relations:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [touches:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [timestamps] => 1
+                                                            [hidden:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [guarded:protected] => Array
+                                                                (
+                                                                    [0] => *
+                                                                )
+
+                                                            [rememberTokenName:protected] => remember_token
+                                                        )
+
+                                                )
+
+                                            [touches:protected] => Array
+                                                (
+                                                )
+
+                                            [timestamps] => 1
+                                            [hidden:protected] => Array
+                                                (
+                                                )
+
+                                            [fillable:protected] => Array
+                                                (
+                                                )
+
+                                            [guarded:protected] => Array
+                                                (
+                                                    [0] => *
+                                                )
+
+                                        )
+
+                                    [2] => App\Photo Object
+                                        (
+                                            [keyType:protected] => string
+                                            [visible:protected] => Array
+                                                (
+                                                    [0] => id
+                                                    [1] => owner
+                                                    [2] => url
+                                                )
+
+                                            [connection:protected] => sqlite_testing
+                                            [table:protected] => photos
+                                            [primaryKey:protected] => id
+                                            [incrementing] => 1
+                                            [with:protected] => Array
+                                                (
+                                                )
+
+                                            [withCount:protected] => Array
+                                                (
+                                                )
+
+                                            [perPage:protected] => 15
+                                            [exists] => 1
+                                            [wasRecentlyCreated] => 
+                                            [attributes:protected] => Array
+                                                (
+                                                    [id] => dBrKFF7E4jke
+                                                    [user_id] => 3
+                                                    [filename] => yICJrrlyFSSV.jpg
+                                                    [created_at] => 1986-08-27 15:07:44
+                                                    [updated_at] => 1982-11-21 17:52:08
+                                                )
+
+                                            [original:protected] => Array
+                                                (
+                                                    [id] => dBrKFF7E4jke
+                                                    [user_id] => 3
+                                                    [filename] => yICJrrlyFSSV.jpg
+                                                    [created_at] => 1986-08-27 15:07:44
+                                                    [updated_at] => 1982-11-21 17:52:08
+                                                )
+
+                                            [changes:protected] => Array
+                                                (
+                                                )
+
+                                            [casts:protected] => Array
+                                                (
+                                                )
+
+                                            [dates:protected] => Array
+                                                (
+                                                )
+
+                                            [dateFormat:protected] => 
+                                            [appends:protected] => Array
+                                                (
+                                                )
+
+                                            [dispatchesEvents:protected] => Array
+                                                (
+                                                )
+
+                                            [observables:protected] => Array
+                                                (
+                                                )
+
+                                            [relations:protected] => Array
+                                                (
+                                                    [owner] => App\User Object
+                                                        (
+                                                            [fillable:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                    [1] => email
+                                                                    [2] => password
+                                                                )
+
+                                                            [casts:protected] => Array
+                                                                (
+                                                                    [email_verified_at] => datetime
+                                                                )
+
+                                                            [visible:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                )
+
+                                                            [connection:protected] => sqlite_testing
+                                                            [table:protected] => users
+                                                            [primaryKey:protected] => id
+                                                            [keyType:protected] => int
+                                                            [incrementing] => 1
+                                                            [with:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [withCount:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [perPage:protected] => 15
+                                                            [exists] => 1
+                                                            [wasRecentlyCreated] => 
+                                                            [attributes:protected] => Array
+                                                                (
+                                                                    [id] => 3
+                                                                    [name] => Aimee DuBuque
+                                                                    [email] => cormier.efren@example.org
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => llo63VOFc8
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [original:protected] => Array
+                                                                (
+                                                                    [id] => 3
+                                                                    [name] => Aimee DuBuque
+                                                                    [email] => cormier.efren@example.org
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => llo63VOFc8
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [changes:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dates:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dateFormat:protected] => 
+                                                            [appends:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dispatchesEvents:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [observables:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [relations:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [touches:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [timestamps] => 1
+                                                            [hidden:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [guarded:protected] => Array
+                                                                (
+                                                                    [0] => *
+                                                                )
+
+                                                            [rememberTokenName:protected] => remember_token
+                                                        )
+
+                                                )
+
+                                            [touches:protected] => Array
+                                                (
+                                                )
+
+                                            [timestamps] => 1
+                                            [hidden:protected] => Array
+                                                (
+                                                )
+
+                                            [fillable:protected] => Array
+                                                (
+                                                )
+
+                                            [guarded:protected] => Array
+                                                (
+                                                    [0] => *
+                                                )
+
+                                        )
+
+                                    [3] => App\Photo Object
+                                        (
+                                            [keyType:protected] => string
+                                            [visible:protected] => Array
+                                                (
+                                                    [0] => id
+                                                    [1] => owner
+                                                    [2] => url
+                                                )
+
+                                            [connection:protected] => sqlite_testing
+                                            [table:protected] => photos
+                                            [primaryKey:protected] => id
+                                            [incrementing] => 1
+                                            [with:protected] => Array
+                                                (
+                                                )
+
+                                            [withCount:protected] => Array
+                                                (
+                                                )
+
+                                            [perPage:protected] => 15
+                                            [exists] => 1
+                                            [wasRecentlyCreated] => 
+                                            [attributes:protected] => Array
+                                                (
+                                                    [id] => hHYis9CyQ4qV
+                                                    [user_id] => 5
+                                                    [filename] => oxTlXvyAb5Zi.jpg
+                                                    [created_at] => 1985-07-05 18:21:27
+                                                    [updated_at] => 2013-12-22 10:15:24
+                                                )
+
+                                            [original:protected] => Array
+                                                (
+                                                    [id] => hHYis9CyQ4qV
+                                                    [user_id] => 5
+                                                    [filename] => oxTlXvyAb5Zi.jpg
+                                                    [created_at] => 1985-07-05 18:21:27
+                                                    [updated_at] => 2013-12-22 10:15:24
+                                                )
+
+                                            [changes:protected] => Array
+                                                (
+                                                )
+
+                                            [casts:protected] => Array
+                                                (
+                                                )
+
+                                            [dates:protected] => Array
+                                                (
+                                                )
+
+                                            [dateFormat:protected] => 
+                                            [appends:protected] => Array
+                                                (
+                                                )
+
+                                            [dispatchesEvents:protected] => Array
+                                                (
+                                                )
+
+                                            [observables:protected] => Array
+                                                (
+                                                )
+
+                                            [relations:protected] => Array
+                                                (
+                                                    [owner] => App\User Object
+                                                        (
+                                                            [fillable:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                    [1] => email
+                                                                    [2] => password
+                                                                )
+
+                                                            [casts:protected] => Array
+                                                                (
+                                                                    [email_verified_at] => datetime
+                                                                )
+
+                                                            [visible:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                )
+
+                                                            [connection:protected] => sqlite_testing
+                                                            [table:protected] => users
+                                                            [primaryKey:protected] => id
+                                                            [keyType:protected] => int
+                                                            [incrementing] => 1
+                                                            [with:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [withCount:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [perPage:protected] => 15
+                                                            [exists] => 1
+                                                            [wasRecentlyCreated] => 
+                                                            [attributes:protected] => Array
+                                                                (
+                                                                    [id] => 5
+                                                                    [name] => Lea Zieme I
+                                                                    [email] => freilly@example.com
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => HLy7VXTES3
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [original:protected] => Array
+                                                                (
+                                                                    [id] => 5
+                                                                    [name] => Lea Zieme I
+                                                                    [email] => freilly@example.com
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => HLy7VXTES3
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [changes:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dates:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dateFormat:protected] => 
+                                                            [appends:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dispatchesEvents:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [observables:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [relations:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [touches:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [timestamps] => 1
+                                                            [hidden:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [guarded:protected] => Array
+                                                                (
+                                                                    [0] => *
+                                                                )
+
+                                                            [rememberTokenName:protected] => remember_token
+                                                        )
+
+                                                )
+
+                                            [touches:protected] => Array
+                                                (
+                                                )
+
+                                            [timestamps] => 1
+                                            [hidden:protected] => Array
+                                                (
+                                                )
+
+                                            [fillable:protected] => Array
+                                                (
+                                                )
+
+                                            [guarded:protected] => Array
+                                                (
+                                                    [0] => *
+                                                )
+
+                                        )
+
+                                    [4] => App\Photo Object
+                                        (
+                                            [keyType:protected] => string
+                                            [visible:protected] => Array
+                                                (
+                                                    [0] => id
+                                                    [1] => owner
+                                                    [2] => url
+                                                )
+
+                                            [connection:protected] => sqlite_testing
+                                            [table:protected] => photos
+                                            [primaryKey:protected] => id
+                                            [incrementing] => 1
+                                            [with:protected] => Array
+                                                (
+                                                )
+
+                                            [withCount:protected] => Array
+                                                (
+                                                )
+
+                                            [perPage:protected] => 15
+                                            [exists] => 1
+                                            [wasRecentlyCreated] => 
+                                            [attributes:protected] => Array
+                                                (
+                                                    [id] => GSmUcAgd7f4A
+                                                    [user_id] => 1
+                                                    [filename] => GmUG1WzFyiUi.jpg
+                                                    [created_at] => 1973-07-12 20:57:48
+                                                    [updated_at] => 1984-08-29 14:40:02
+                                                )
+
+                                            [original:protected] => Array
+                                                (
+                                                    [id] => GSmUcAgd7f4A
+                                                    [user_id] => 1
+                                                    [filename] => GmUG1WzFyiUi.jpg
+                                                    [created_at] => 1973-07-12 20:57:48
+                                                    [updated_at] => 1984-08-29 14:40:02
+                                                )
+
+                                            [changes:protected] => Array
+                                                (
+                                                )
+
+                                            [casts:protected] => Array
+                                                (
+                                                )
+
+                                            [dates:protected] => Array
+                                                (
+                                                )
+
+                                            [dateFormat:protected] => 
+                                            [appends:protected] => Array
+                                                (
+                                                )
+
+                                            [dispatchesEvents:protected] => Array
+                                                (
+                                                )
+
+                                            [observables:protected] => Array
+                                                (
+                                                )
+
+                                            [relations:protected] => Array
+                                                (
+                                                    [owner] => App\User Object
+                                                        (
+                                                            [fillable:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                    [1] => email
+                                                                    [2] => password
+                                                                )
+
+                                                            [casts:protected] => Array
+                                                                (
+                                                                    [email_verified_at] => datetime
+                                                                )
+
+                                                            [visible:protected] => Array
+                                                                (
+                                                                    [0] => name
+                                                                )
+
+                                                            [connection:protected] => sqlite_testing
+                                                            [table:protected] => users
+                                                            [primaryKey:protected] => id
+                                                            [keyType:protected] => int
+                                                            [incrementing] => 1
+                                                            [with:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [withCount:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [perPage:protected] => 15
+                                                            [exists] => 1
+                                                            [wasRecentlyCreated] => 
+                                                            [attributes:protected] => Array
+                                                                (
+                                                                    [id] => 1
+                                                                    [name] => Dr. Rory Schimmel
+                                                                    [email] => norris.marks@example.net
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => OXj3E3W9ig
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [original:protected] => Array
+                                                                (
+                                                                    [id] => 1
+                                                                    [name] => Dr. Rory Schimmel
+                                                                    [email] => norris.marks@example.net
+                                                                    [email_verified_at] => 2020-01-22 05:08:27
+                                                                    [password] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+                                                                    [remember_token] => OXj3E3W9ig
+                                                                    [created_at] => 2020-01-22 05:08:27
+                                                                    [updated_at] => 2020-01-22 05:08:27
+                                                                )
+
+                                                            [changes:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dates:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dateFormat:protected] => 
+                                                            [appends:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [dispatchesEvents:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [observables:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [relations:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [touches:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [timestamps] => 1
+                                                            [hidden:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [guarded:protected] => Array
+                                                                (
+                                                                    [0] => *
+                                                                )
+
+                                                            [rememberTokenName:protected] => remember_token
+                                                        )
+
+                                                )
+
+                                            [touches:protected] => Array
+                                                (
+                                                )
+
+                                            [timestamps] => 1
+                                            [hidden:protected] => Array
+                                                (
+                                                )
+
+                                            [fillable:protected] => Array
+                                                (
+                                                )
+
+                                            [guarded:protected] => Array
+                                                (
+                                                    [0] => *
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [perPage:protected] => 15
+                    [currentPage:protected] => 1
+                    [path:protected] => http://localhost/api/photos
+                    [query:protected] => Array
+                        (
+                        )
+
+                    [fragment:protected] => 
+                    [pageName:protected] => page
+                    [onEachSide] => 3
+                    [options:protected] => Array
+                        (
+                            [path] => http://localhost/api/photos
+                            [pageName] => page
+                        )
+
+                )
+
+            [exception] => 
+        )
+
+    [streamedContent:protected] => 
+)
+
+
+Time: 3.41 seconds, Memory: 28.00 MB
+
+There was 1 failure:
+
+1) Tests\Feature\PhotoListApiTest::should_正しい構造のJSONを返却する
+Unable to find JSON fragment: 
+
+[{"data":[{"id":"GSmUcAgd7f4A","owner":{"name":"Dr. Rory Schimmel"},"url":"https:\/\/s3-ap-northeast-1.amazonaws.com\/vue-laravel-tutorial-hahahayatee\/GmUG1WzFyiUi.jpg"},{"id":"dBrKFF7E4jke","owner":{"name":"Aimee DuBuque"},"url":"https:\/\/s3-ap-northeast-1.amazonaws.com\/vue-laravel-tutorial-hahahayatee\/yICJrrlyFSSV.jpg"},{"id":"e7xE1S2aNIpZ","owner":{"name":"Dr. Kylie Smitham Jr."},"url":"https:\/\/s3-ap-northeast-1.amazonaws.com\/vue-laravel-tutorial-hahahayatee\/BDHHCPCq2AWw.jpg"},{"id":"hHYis9CyQ4qV","owner":{"name":"Lea Zieme I"},"url":"https:\/\/s3-ap-northeast-1.amazonaws.com\/vue-laravel-tutorial-hahahayatee\/oxTlXvyAb5Zi.jpg"},{"id":"i1xzXWM27WGE","owner":{"name":"Keeley Gerlach"},"url":"https:\/\/s3-ap-northeast-1.amazonaws.com\/vue-laravel-tutorial-hahahayatee\/Gwew6JbINnLT.jpg"}]}]
+
+within
+
+[{"current_page":1,"data":[{"id":"GSmUcAgd7f4A","owner":{"name":"Dr. Rory Schimmel"}},{"id":"dBrKFF7E4jke","owner":{"name":"Aimee DuBuque"}},{"id":"e7xE1S2aNIpZ","owner":{"name":"Dr. Kylie Smitham Jr."}},{"id":"hHYis9CyQ4qV","owner":{"name":"Lea Zieme I"}},{"id":"i1xzXWM27WGE","owner":{"name":"Keeley Gerlach"}}],"first_page_url":"http:\/\/localhost\/api\/photos?page=1","from":1,"last_page":1,"last_page_url":"http:\/\/localhost\/api\/photos?page=1","next_page_url":null,"path":"http:\/\/localhost\/api\/photos","per_page":15,"prev_page_url":null,"to":5,"total":5}].
+Failed asserting that false is true.
+
+/var/www/html/vuesplash/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:557
+/var/www/html/vuesplash/tests/Feature/PhotoListApiTest.php:48
+
+FAILURES!
+Tests: 1, Assertions: 3, Failures: 1.
